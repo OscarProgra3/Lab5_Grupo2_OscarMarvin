@@ -3,7 +3,7 @@
 #ifndef USUARIO_H
 #define USUARIO_H
 
-usung namespace std;
+using namespace std;
 
 class Usuario
 {
@@ -39,4 +39,4 @@ class Usuario
 
 
 };
-#endif;
+#endif
