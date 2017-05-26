@@ -22,6 +22,7 @@ class Cliente : public Usuario
 		int getRating();
 		void setRating(int);
 
-
+		string getTipoUsuario();
+	
 };
 #endif

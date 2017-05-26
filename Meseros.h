@@ -12,5 +12,7 @@ class Meseros : public Personal{
 	public:
 		Meseros(string, string, string, int, int, int, int, double, vector <string>);
 		//año, sueldo //username, password, nombre, edad, ID, telefono
+		string getTipoPersonal();
+
 };
 #endif

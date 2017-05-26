@@ -23,3 +23,8 @@ void Cliente::setRating(int trating)
 {
 	rating=trating;
 }
+
+string Cliente::getTipoUsuario()
+{
+	return "Cliente";
+}

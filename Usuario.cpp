@@ -58,3 +58,7 @@ void Usuario::setTelefono(int ttelefono)
 }
 
 
+string Usuario::getTipoUsuario()
+{
+	return "";
+}

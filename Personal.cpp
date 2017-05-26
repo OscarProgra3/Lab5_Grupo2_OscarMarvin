@@ -23,3 +23,13 @@ void Personal::setSueldo(double tsueldo)
 {
 	sueldo=tsueldo;
 }
+
+string Personal::getTipoPersonal()
+{
+	return "";
+}
+
+string Personal::getTipoUsuario()
+{
+	return "Personal";
+}

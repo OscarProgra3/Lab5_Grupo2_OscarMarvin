@@ -21,5 +21,10 @@ class Personal : public Usuario
 
 		double getSueldo();
 		void setSueldo(double);
+
+		virtual string getTipoPersonal();
+
+
+		string getTipoUsuario();
 };
 #endif
