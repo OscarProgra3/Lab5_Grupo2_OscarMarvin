@@ -8,7 +8,7 @@
 #include "Personal.h"
 #include "Admistrador.h"
 #include "Chef.h"
-#include "Mesero.h"
+#include "Meseros.h"
 #include "Lavaplatos.h"
 
 
@@ -44,3 +44,4 @@ int main()
 	return 0;
 	
 }
+
