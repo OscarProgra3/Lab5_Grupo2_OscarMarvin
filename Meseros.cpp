@@ -2,17 +2,6 @@
 
 using namespace std;
 
-Meseros::Meseros(){
-
-}
-
-Meseros::Meseros(int anio_contratacion, double sueldo, string username, string password, string nombre, int edad, int ID, int telefono){
-	this -> anio_contratacion = anio_contratacion;
-	this -> sueldo = sueldo;
-	this -> username = username;
-	this -> password = password;
-	this -> nombre = nombre;
-	this -> edad = edad;
-	this -> ID = ID;
-	this -> telefono = telefono;
+Meseros::Meseros(string pusername, string ppass, string pnombre, int pedad, int pid, int ptelefono, int panio, double psueldo, vector <string> lista_platillos) : Personal(pusername, ppass, pnombre, pedad, pid, ptelefono, panio, psueldo){
+	this -> lista_platillos = lista_platillos;
 }

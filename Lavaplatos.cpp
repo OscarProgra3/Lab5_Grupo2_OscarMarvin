@@ -2,26 +2,14 @@
 
 using namespace std;
 
-Lavaplatos::Lavaplatos(){
-
+Lavaplatos::Lavaplatos(string pusername, string ppass, string pnombre, int pedad, int pid, int ptelefono, int panio, double psueldo, int pnivel_motivacion) : Personal(username, ppass, pnombre, pedad, pid, ptelefono, panio, psueldo){
+	nivel_motivacion = pnivel_motivacion;
 }
 
-Lavaplatos::Lavaplatos(int nivel_motivacion, int anio_contratacion, double sueldo, string username, string password, string nombre, int edad, int ID, int telefono){
-	this -> nivel_motivacion = nivel_motivacion;
-	this -> anio_contratacion = anio_contratacion;
-	this -> sueldo = sueldo;
-	this -> username = username;
-	this -> password = password;
-	this -> nombre = nombre;
-	this -> edad = edad;
-	this -> ID = ID;
-	this -> telefono = telefono;
-}
-
-int getNivel_Motivacion(){
+int Lavaplatos::getNivel_Motivacion(){
 	return nivel_motivacion;
 }
 
-void setNivel_Motivacion(int tnivel_motivacion){
+void Lavaplatos::setNivel_Motivacion(int tnivel_motivacion){
 	nivel_motivacion = tnivel_motivacion;
 }

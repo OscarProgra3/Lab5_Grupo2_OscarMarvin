@@ -2,21 +2,9 @@
 
 using namespace std;
 
-Administrador::Administrador(){
-
-}
-
-Administrador::Administrador(int empleados_contratados, int empleados_despedidos, int anio_contratacion, double sueldo, string username, string password, string nombre, int edad, int ID, int telefono){
+Administrador::Administrador(string pusername, string ppass, string pnombre, int pedad, int pid, int ptelefono, int panio, double psueldo, int empleados_contratados, int empleados_despedidos) : Personal(username, ppass, pnombre, pedad, pid, ptelefono, panio, psueldo){
 	this -> empleados_contratados = empleados_contratados;
 	this -> empleados_despedidos = empleados_despedidos;
-	this -> anio_contratacion = anio_contratacion;
-	this -> sueldo = sueldo;
-	this -> username = username;
-	this -> password = password;
-	this -> nombre = nombre;
-	this -> edad = edad;
-	this -> ID = ID;
-	this -> telefono = telefono;
 }
 
 int Administrador::getEmpleados_Contratados(){
@@ -28,7 +16,7 @@ void Administrador::setEmpleados_Contratados(int templeados_contratados){
 }
 
 int Administrador::getEmpleados_Despedidos(){
-	return empleados_despedidos
+	return empleados_despedidos;
 }
 
 void Administrador::setEmpleados_Despedidos(int templeados_despedidos){

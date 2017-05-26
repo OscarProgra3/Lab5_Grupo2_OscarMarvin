@@ -10,8 +10,7 @@ class Administrador : public Personal{
 		int empleados_contratados;
 		int empleados_despedidos;
 	public:
-		Administrador();
-		Administrador(int, int, int, double, string, string, string, int, int, int); 
+		Administrador(string, string, string, int, int, int, int, double, int, int); 
 		//contratados, despedidos //año, sueldo //username, password, nombre, edad, ID, telefono
 		int getEmpleados_Contratados();
 		void setEmpleados_Contratados(int);

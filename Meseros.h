@@ -6,11 +6,11 @@
 
 using namespace std;
 
-class Lavaplatos : public Personal{
+class Meseros : public Personal{
 	private:
 		vector <string> lista_platillos;		
 	public:
-		Meseros();
-		Meseros(int, double, string, string, string, int, int, int);
+		Meseros(string, string, string, int, int, int, int, double, vector <string>);
 		//año, sueldo //username, password, nombre, edad, ID, telefono
-}
+};
+#endif
