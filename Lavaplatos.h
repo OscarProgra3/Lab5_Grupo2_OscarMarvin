@@ -13,5 +13,8 @@ class Lavaplatos : public Personal{
 		//nivel_motivacion //año, sueldo //username, password, nombre, edad, ID, telefono
 		int getNivel_Motivacion();
 		void setNivel_Motivacion(int);
+
+
+		string getTipoPersonal();
 };
 #endif

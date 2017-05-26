@@ -13,3 +13,9 @@ int Lavaplatos::getNivel_Motivacion(){
 void Lavaplatos::setNivel_Motivacion(int tnivel_motivacion){
 	nivel_motivacion = tnivel_motivacion;
 }
+
+
+string Lavaplatos::getTipoPersonal()
+{
+	return "Lavaplatos";
+}

@@ -22,3 +22,9 @@ int Administrador::getEmpleados_Despedidos(){
 void Administrador::setEmpleados_Despedidos(int templeados_despedidos){
 	empleados_despedidos = templeados_despedidos;
 }
+
+
+string Administrador::getTipoPersonal()
+{
+	return "Administrador";
+}

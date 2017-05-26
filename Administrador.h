@@ -16,5 +16,8 @@ class Administrador : public Personal{
 		void setEmpleados_Contratados(int);
 		int getEmpleados_Despedidos();
 		void setEmpleados_Despedidos(int);
+
+
+		string getTipoPersonal();
 };
 #endif

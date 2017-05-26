@@ -22,3 +22,9 @@ double Chef::getRating(){
 void Chef::setRating(double trating){
 	rating = trating;
 }
+
+
+string Chef::getTipoPersonal()
+{
+	return "Chef";
+}
