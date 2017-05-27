@@ -24,7 +24,7 @@ void Personal::setSueldo(double tsueldo)
 	sueldo=tsueldo;
 }
 
-string getTipoPersonal()
+string Personal::getTipoPersonal()
 {
 	return "";
 }

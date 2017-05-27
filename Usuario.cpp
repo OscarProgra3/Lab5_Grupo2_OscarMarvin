@@ -58,7 +58,7 @@ void Usuario::setTelefono(int ttelefono)
 }
 
 
-virtual string getTipoUsuario()
+string Usuario::getTipoUsuario()
 {
 	return "";
 }

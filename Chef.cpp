@@ -28,3 +28,8 @@ string Chef::getTipoPersonal()
 {
 	return "Chef";
 }
+
+string Chef::getTipoUsuario()
+{
+	return "Chef";
+}

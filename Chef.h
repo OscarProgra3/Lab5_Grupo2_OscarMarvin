@@ -16,6 +16,9 @@ class Chef : public Personal{
 		double getRating();
 		void setRating(double);
 
+
+		string getTipoUsuario();
+
 		string getTipoPersonal();
 };
 #endif
